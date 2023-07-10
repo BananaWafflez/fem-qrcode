@@ -13,14 +13,31 @@ body{
     font-family: "Outfit";
     flex-direction: column;
     background-color: white;
-    padding: 12px;
+    width: auto;
+    padding: 8px;
+    
     border-radius: 8px;
     align-items: center;
 }
 img{
-    width:50%;
-    border-radius: 8px;
+    width:300px;
+
+    padding: 8px;
+    border-radius: 16px;
+    margin-bottom: 16px;
 }
 .catcher{
-    font-size: 36px;
+    
+    font-size: 24px;
+    max-width: 300px;
+    text-align: center;
+}
+.subtext{
+    margin-top: 10px;
+    font-size: 16px;
+    max-width: auto;
+    font-weight: lighter;
+    text-align: center;
+    color: gray;
+    margin-bottom: 18px;
 }
