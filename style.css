@@ -16,7 +16,7 @@ body{
     width: auto;
     padding: 8px;
     
-    border-radius: 8px;
+    border-radius: 16px;
     align-items: center;
 }
 img{
@@ -27,7 +27,8 @@ img{
     margin-bottom: 16px;
 }
 .catcher{
-    
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
     font-size: 24px;
     max-width: 300px;
     text-align: center;
@@ -40,4 +41,8 @@ img{
     text-align: center;
     color: gray;
     margin-bottom: 18px;
+}
+.attribution{
+    position: absolute;
+    bottom: 0px;
 }
